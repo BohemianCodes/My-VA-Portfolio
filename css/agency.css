@@ -76,9 +76,9 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #FF6978 !important;
-  color: #68EDE2;
-  border: none;
+  background-color: #174E60 !important;
+  color: #FF6978;
+  border: 1px solid #174E60;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -90,8 +90,29 @@ section h3.section-subheading {
   border-color: #FF6978;
   color: #FFFCF9;
   font-size: 16px;
-  margin-top: 20px;
+  margin: 20px auto 0px;
   padding: 10px 20px;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #174E60 !important;
+  color: #FF6978;
+  border: 1px solid #174E60;
+}
+
+.btn-bookme {
+  background-color: #FF6978;
+  border-color: #FF6978;
+  color: #FFFCF9;
+  font-size: 14px;
+  margin: 0px auto;
+  padding: 8px 18px;
+}
+
+.btn-bookme:active, .btn-bookme:focus, .btn-bookme:hover {
+  background-color: #174E60 !important;
+  color: #FF6978;
+  border: 3px solid #174E60;
 }
 
 ::-moz-selection {
@@ -708,7 +729,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #174E60;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
