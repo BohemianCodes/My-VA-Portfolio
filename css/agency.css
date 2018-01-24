@@ -23,6 +23,14 @@ a:hover {
   color: #F6AE2D;
 }
 
+.icon-wordpress {
+  color: #0073AA;
+}
+
+.icon-singlepage {
+  color: #6D435A;
+}
+
 h1,
 h2,
 h3,
@@ -35,6 +43,11 @@ h6 {
 
 section {
   padding: 100px 0;
+}
+
+.grid p,
+.grid ul {
+  font-size: 1.2rem;
 }
 
 section h2.section-heading {
@@ -50,6 +63,11 @@ section h3.section-subheading {
   margin-bottom: 75px;
   text-transform: none;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.8rem;
+}
+
+#contact .section-subheading {
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -69,11 +87,23 @@ section h3.section-subheading {
   margin-top: 40px;
 }
 
+@media (max-width: 768px) {
+  .btn {
+    margin-bottom: 30px;
+  }
+}
+
+
 .btn-primary {
   background-color: #FF6978;
   border-color: #FF6978;
   color: #FFFCF9;
 }
+
+#prices .text-center p {
+  font-size: 1.2rem;
+}
+
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #174E60 !important;
@@ -94,6 +124,12 @@ section h3.section-subheading {
   padding: 10px 20px;
 }
 
+@media (max-width: 768px) {
+  .btn-secondary {
+    margin-bottom: 30px;
+  }
+}
+
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
   background-color: #174E60 !important;
   color: #FF6978;
@@ -107,6 +143,12 @@ section h3.section-subheading {
   font-size: 14px;
   margin: 0px auto;
   padding: 8px 18px;
+}
+
+@media (max-width: 768px) {
+  .btn-bookme {
+    margin: 0px;
+  }
 }
 
 .btn-bookme:active, .btn-bookme:focus, .btn-bookme:hover {
@@ -131,6 +173,10 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+.navbar-container {
+  max-width: 1920px !important;
 }
 
 #mainNav {
@@ -158,16 +204,22 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 90%;
+  font-size: 85%;
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: #611b1b;
+  color: #352D39;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #FF6978;
+}
+
+@media (max-width: 991px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: #B1EDE8 !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -756,8 +808,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     padding-left:20px;
 }
 
-/* .flowleft {
-    float: left;
-    padding-bottom: 20px;
-    padding-right :20px;
-} */
+.va-row {
+  margin-top: 50px;
+}
