@@ -145,6 +145,15 @@ section h3.section-subheading {
   padding: 8px 18px;
 }
 
+.btn-consultation {
+  background-color: #FF6978;
+  border-color: #FF6978;
+  color: #FFFCF9;
+  font-size: 14px;
+  margin: 0px auto;
+  padding: 15px 10px;
+}
+
 @media (max-width: 768px) {
   .btn-bookme {
     margin: 0px;
@@ -255,7 +264,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: black;
-  background-image: url("../img/lake.jpg");
+  background-image: url("../img/lake-compressed.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -698,6 +707,10 @@ section#contact .section-heading {
   color: #fff;
 }
 
+section#contact .section-subheading {
+  font-size: 1.3rem;
+}
+
 section#contact .form-group {
   margin-bottom: 25px;
 }
@@ -744,6 +757,11 @@ section#contact :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+section#contact a {
+  color: #B1EDE8;
+  text-shadow: 1px 1px black;
 }
 
 footer {
