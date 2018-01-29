@@ -695,6 +695,14 @@ ul {
   margin-top: 0;
 }
 
+section#prices {
+  background-color: #212529;
+  background-image: url("../img/bg5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/desk.jpg");
@@ -828,4 +836,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .va-row {
   margin-top: 50px;
+}
+
+#prices #va-preise p{
+  font-size: 1.5rem;
+}
+
+#prices .small-p {
+  font-size: 1.0rem !important;
 }
