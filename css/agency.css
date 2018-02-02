@@ -287,10 +287,10 @@ header.masthead .intro-text .intro-lead-in {
 
 header.masthead .intro-text .intro-heading {
   font-size: 66px;
-  font-weight: 700;
+  font-weight: 100;
   line-height: 50px;
   margin-bottom: 25px;
-  font-family: 'Amatic SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Rancho', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -302,14 +302,14 @@ header.masthead .intro-text .intro-heading {
     font-size: 31px;
     line-height: 40px;
     margin-bottom: 50px;
-    font-family: 'IM Fell English SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* font-family: 'IM Fell English SC', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   }
   header.masthead .intro-text .intro-heading {
     font-size: 100px;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: 'Amatic SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* font-family: 'Amatic SC', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   }
 }
 
@@ -701,6 +701,10 @@ section#prices {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.red {
+  color: red;
 }
 
 section#contact {
