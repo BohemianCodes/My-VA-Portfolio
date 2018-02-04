@@ -263,7 +263,7 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: black;
+  color: #2E0219;
   background-image: url("../img/lake-compressed.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -290,6 +290,7 @@ header.masthead .intro-text .intro-heading {
   font-weight: 100;
   line-height: 50px;
   margin-bottom: 25px;
+  text-shadow: 2px 2px #97EFE9;
   font-family: 'Rancho', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 

@@ -30,6 +30,31 @@
       gtag('config', 'UA-113304393-1');
     </script>
 
+    <!-- Start of Async Drift Code -->
+    <script>
+    !function() {
+      var t;
+      if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+      t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+      t.factory = function(e) {
+        return function() {
+          var n;
+          return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e, n, o, i;
+        e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+        n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+      });
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('epcpd2evnah8');
+    </script>
+    <!-- End of Async Drift Code -->
+
 
   </head>
 
@@ -38,7 +63,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container navbar-container">
-        <a class="btn btn-bookme text-uppercase js-scroll-trigger" href="https://bohemiancodes.youcanbook.me/" target="_blank">Book A Free Consultation</a>
+        <a class="btn btn-bookme text-uppercase js-scroll-trigger" href="#consultation" target="_blank">Book A Free Consultation</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -82,7 +107,7 @@
       <div class="container">
         <div class="intro-text">
           <div class="intro-heading">Bohemian.Codes</div>
-          <div class="intro-lead-in">Polyglot | Virtual Assistant | Travel Specialist </div>
+          <div class="intro-lead-in">Polyglot | Virtual Assistant | Web Developer </div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
         </div>
       </div>
@@ -138,6 +163,31 @@
     </section> -->
 
     <!-- Services -->
+    <section class="grid bg-light" id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">What is a Virtual Assistant?</h2>
+            <h3 class="section-subheading text-muted"></h3>
+          </div>
+        </div>
+        <div class="text-center">
+          <p>Welcome to my Website! If you are tired of doing all the work in your business on your own, you have come to the right place. I am a freelance Virtual Assistant, which means I work from my own office, with my own tools and I am here to help you to recover the time you need for the important things in your business. </p>
+
+          <p>I am a <b><a href="#va">Customer Service Specialist</a></b> (German, English and Spanish) with years of experience so I can take care of the communication with your clients. As a certified <b><a href="#webdev">Web Developer</a></b>, I can assist you with your website creation and maintenance.</p>
+
+          <p> Additionally, I can professionally edit your photos with Adobe Photoshop Lightroom and upload them to the right places, I can take care of your Social Media Marketing, make travel arrangements, do audio transcriptions, create documents, translate or write online content and more... </p>
+
+          <p>If you would like more information about what I can do for you, let's have a talk! You can book a free 30 minute phonecall with myself. </p>
+          <p>Looking forward to speaking with you! </p>
+
+          <a class="btn btn-bookme text-uppercase js-scroll-trigger" href="https://bohemiancodes.youcanbook.me/" target="_blank">Book A Free Consultation</a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
     <section class="grid" id="services">
       <div class="container">
         <div class="row">
@@ -170,7 +220,7 @@
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-compass fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Freedom Engineer</h4>
+            <h4 class="service-heading">Travel Engineer</h4>
             <p class="text-muted">Since 2011, I am living a minimalistic, nomadic lifestyle. I have found my own way to travel long-term, and I can be of assistance to souls who feel in their heart the same calling to be free. I don't charge for this, and I am looking forward to hear from you!</p>
               <a class="btn btn-secondary text-uppercase js-scroll-trigger" href="#contact">Contact Me</a>
           </div>
@@ -367,7 +417,7 @@
     </section>
 
     <!-- About -->
-    <section class="bg-light" id="about">
+    <!-- <section class="bg-light" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -522,7 +572,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Reviews -->
     <section id="reviews">
@@ -562,27 +612,26 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Prices</h2>
-            <h3 class="section-subheading">for Virtual Assistance</h3>
+            <h2 class="section-heading text-uppercase">Price Examples</h2>
+            <h3 class="section-subheading">You can book me for standalone projects or on a monthly basis. The more hours, the lower the hourly rate.<br>For an individual pricing proposal tailored to your needs, please <a href="#contact">contact me</a>. </h3>
         </div>
       </div>
       <div id="va-preise" class="row text-center">
         <div class="col-md-4">
-          <h2>5 hours<br></h2>
-          <p class="small-p red">50% discount for new clients</p>
-          <p><s>165</s> 82.50 USD</p>
-
+          <h2>5 hours</h2>
+          <p><s>188 USD</s> 94 USD</p>
+          <p class="small-p">50% in trial period (new customers only)</p>
         </div>
         <div class="col-md-4">
-          <h2>10 hours</h2>
-          <p>330 USD</p>
-          <p class="small-p"></p>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Book Me</a>
+          <h2>15 hours</h2>
+          <p>525 USD</p>
+          <p class="small-p">(35 USD / h)</p>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Contact Me</a>
         </div>
         <div class="col-md-4">
-          <h2>30 hours</h2>
-          <p>900 USD</p>
-          <p class="small-p"></p>
+          <h2>30 Stunden</h2>
+          <p>930 USD</p>
+          <p class="small-p">(31 USD / h)</p>
         </div>
       </div>
     </section>
@@ -594,7 +643,7 @@
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Contact Me</h2>
             <h3 class="section-subheading">Please include your timezone for smooth communication.<br>
-            You can also book a <a href="https://bohemiancodes.youcanbook.me/" target="_blank">phone call</a>.</h3>
+            You can also book a <a href="https://bohemiancodes.youcanbook.me/" target="_blank">phone or skype call</a> with me.</h3>
           </div>
         </div>
         <div class="row">
@@ -634,7 +683,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="consultation">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
