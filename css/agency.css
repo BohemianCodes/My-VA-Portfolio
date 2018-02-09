@@ -778,7 +778,7 @@ section#prices {
 
 section#services {
   background-color: #212529;
-  background-image: url("../img/bg6.jpg");
+  background-image: url("../img/bg6-min.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -791,7 +791,7 @@ section#services .container {
 
 section#webdev {
   background-color: #212529;
-  background-image: url("../img/bg9.jpg");
+  background-image: url("../img/bg9-min.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
