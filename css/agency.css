@@ -1,10 +1,14 @@
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 p {
   line-height: 1.75;
+}
+
+.about p {
+  font-size: 1.2rem;
 }
 
 a {
@@ -50,6 +54,10 @@ section {
   font-size: 1.2rem;
 }
 
+p.big {
+  font-size: 2rem;
+}
+
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
@@ -81,6 +89,8 @@ section h3.section-subheading {
   font-weight: 700;
 }
 
+
+
 .btn-xl {
   font-size: 18px;
   padding: 20px 40px;
@@ -111,11 +121,18 @@ section h3.section-subheading {
   border: 1px solid #174E60;
 }
 
+.btn-fiverr:active, .btn-fiverr:focus, .btn-fiverr:hover {
+  background-color: #174E60 !important;
+  color: #FF6978;
+  border: 1px solid #174E60;
+}
+
 .btn-primary:active, .btn-primary:focus {
   /* box-shadow: 0 0 0 0.2rem black !important; */
 }
 
-.btn-secondary {
+.btn-secondary,
+.btn-fiverr {
   background-color: #FF6978;
   border-color: #FF6978;
   color: #FFFCF9;
@@ -136,6 +153,12 @@ section h3.section-subheading {
   border: 1px solid #174E60;
 }
 
+.btn-grid:active, .btn-grid:focus, .btn-grid:hover {
+  background-color: #174E60 !important;
+  color: #FF6978;
+  border: 1px solid #174E60;
+}
+
 .btn-bookme {
   background-color: #FF6978;
   border-color: #FF6978;
@@ -143,6 +166,32 @@ section h3.section-subheading {
   font-size: 14px;
   margin: 0px auto;
   padding: 8px 18px;
+}
+
+.btn-intro {
+  background-color: #FF6978;
+  border-color: #FF6978;
+  color: #FFFCF9;
+  font-size: 17px;
+  margin: 15px auto 25px;
+  padding: 8px 18px;
+}
+
+.btn-grid {
+  background-color: #FF6978;
+  border-color: #FF6978;
+  color: #FFFCF9;
+  font-size: 16px;
+  margin: 20px auto 0px;
+  padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+  .btn-grid,
+  .btn-secondary,
+  .btn-primary {
+    display: none;
+  }
 }
 
 .btn-consultation {
@@ -160,7 +209,19 @@ section h3.section-subheading {
   }
 }
 
+@media (max-width: 355px) {
+  .btn-bookme {
+    margin: 0px 0px 10px 0px;
+  }
+}
+
 .btn-bookme:active, .btn-bookme:focus, .btn-bookme:hover {
+  background-color: #174E60 !important;
+  color: #FF6978;
+  border: 3px solid #174E60;
+}
+
+.btn-intro:active, .btn-intro:focus, .btn-intro:hover {
   background-color: #174E60 !important;
   color: #FF6978;
   border: 3px solid #174E60;
@@ -317,6 +378,10 @@ header.masthead .intro-text .intro-heading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+
+#advantages {
+  padding-left: 0;
 }
 
 #va ul {
@@ -695,6 +760,13 @@ ul {
 .team-member p {
   margin-top: 0;
 }
+
+@media (max-width: 768px) {
+  .team-member ul,
+  .team-member h4 {
+    display: none;
+  }
+  }
 
 section#prices {
   background-color: #212529;
