@@ -776,6 +776,32 @@ section#prices {
   background-size: cover;
 }
 
+section#services {
+  background-color: #212529;
+  background-image: url("../img/bg6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section#services .container {
+  background: #f8f9fa87;
+  padding: 20px;
+}
+
+section#webdev {
+  background-color: #212529;
+  background-image: url("../img/bg9.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section#webdev .container {
+  background: #f8f9fade;
+  padding: 20px;
+}
+
 .red {
   color: red;
 }
