@@ -746,9 +746,9 @@ ul {
 }
 
 .team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid #fff;
+  width: 260px;
+  height: 260px;
+  border: 5px solid #174E60;
 }
 
 .team-member h4 {
@@ -771,6 +771,14 @@ ul {
 section#prices {
   background-color: #212529;
   background-image: url("../img/bg5-compressed.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section#va {
+  background-color: #212529;
+  background-image: url("../img/pen-min.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
