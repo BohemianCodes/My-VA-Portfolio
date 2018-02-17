@@ -58,6 +58,10 @@ p.big {
   font-size: 2rem;
 }
 
+p.medium {
+  font-size: 1.7rem;
+}
+
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
@@ -205,11 +209,11 @@ section h3.section-subheading {
 
 @media (max-width: 768px) {
   .btn-bookme {
-    margin: 0px;
+    margin: 0px 5px 0px 0px;
   }
 }
 
-@media (max-width: 355px) {
+@media (max-width: 301px) {
   .btn-bookme {
     margin: 0px 0px 10px 0px;
   }
@@ -352,7 +356,7 @@ header.masthead .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
   text-shadow: 2px 2px #97EFE9;
-  font-family: 'Rancho', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Im Fell English SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -373,6 +377,12 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     /* font-family: 'Amatic SC', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   }
+}
+
+#intro img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .service-heading {
